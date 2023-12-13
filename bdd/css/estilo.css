@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+h1{
+    font-size: 52px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+}
+
+body {
+    background: black;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.content {
+    background: rgba(75, 74, 74, 0.377);
+    color: white;
+    border-radius: 50px;
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    height: 90%;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+.dados {
+    /* border: 2px solid black; */
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.dados p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    border-bottom: 2px solid green;
+    text-align: center;
+}
+ .dados input {
+    padding: 10px;
+    border-radius: 25px;
+    border: none;
+ }
+
+ .dados #email {
+    width: 120%;
+ }
+
+ .descricao {
+    display: flex;
+    flex-wrap: wrap;
+    width: 70%;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+ }
+
+ .subtitle{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    border-bottom: 2px solid green;
+    margin: 20px;
+    width: 60%;
+    text-align: center;
+ }
+
+
+ .descricao input {
+    padding: 12px;
+    border-radius: 10px;
+    border: none;
+ }
+
+.data {
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-bottom: 2px solid green;
+}
+
+
+button {
+    padding: 12px;
+    margin-top: 25px;
+    cursor: pointer;
+    border-radius: 40px;
+    border: none;
+    background:green;
+    font-size: 18px;
+    color: white;
+}
